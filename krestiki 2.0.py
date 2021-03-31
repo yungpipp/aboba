@@ -8,15 +8,16 @@ draw = False
 players={}
 for line in p:
     tmp=line.replace("\n","").split(" ")
-
     n=tmp[0]
-    players[n]=tmp[1]
+    players[n]=int(tmp[1])
 
 player='X'
 name1=input('Крестики:')
 name2=input('Нолики:')
-players[name1]=0
-players[name2]=0
+if name1 not in players:
+        players[name1]=0
+if name2 not in players:
+        players[name2]=0
 def print_field():
     for i in range(3):
         print(field[i][0]+"|"+field[i][1]+"|"+field[i][2])
@@ -41,7 +42,7 @@ while not winX or not winO:
                 players[name1]+=1
                 break
         if winO:
-                print(name2,end='win')
+                print(name2,end=' win')
                 print('')
                 players[name2]+=1
                 break
@@ -80,5 +81,9 @@ while not winX or not winO:
                         if field[i][j]==" ":
                                 draw=False
 print(players)
-
-print("End")
+p.close()
+p=open('p.txt','w')
+for i in players:
+    p.write(str(i)+" "+str(players[i]))
+    p.write('\n')
+p.close()

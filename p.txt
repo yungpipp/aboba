@@ -1,0 +1,4 @@
+kirill 4
+vasya 2
+gg 2
+dd 0
