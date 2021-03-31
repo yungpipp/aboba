@@ -1,17 +1,15 @@
-s=open('f.txt','r')
+s=open('s.txt','r')
 import random
-a={}
+students=[]
 r=5
-for line in f:
+for line in s:
     tmp=line.replace("\n","").split(" ")
-
-    n=tmp[0]
-    a[n]=[]
-    for i in range(1,len(tmp)):
-        rr=int(tmp[i])
-        a[n].append(rr)
+    student = {}
+    student["name"] = tmp[0]
+    student['fam']=tmp[1]
+    student['ot']=tmp[2]
 for n in a:
-    print(n,end=":\t")
+    print(n)
     for i in range(len(a[n])):
         print (a[n][i],end=' ')
     print('')
@@ -27,7 +25,10 @@ m=int(input('Нажмите 1, чтобы вывести всех ученико
             ' '
             'Нажмите 6, чтобы изменить данные ученика'
             ' '
-            'Нажмите 7, чтобы выйти'))
+            'Нажмите 7, чтобы выйти'
+            ' '))
+if m==1:
+    print(a)
 if m==2:
     fl=True
     for n in a:
@@ -45,3 +46,5 @@ if m==3:
                 flag=True
         if flag==True:
             print(n)
+if m==7:
+    break
