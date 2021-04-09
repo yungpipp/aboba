@@ -8,12 +8,14 @@ for line in s:
     student["name"] = tmp[0]
     student['fam']=tmp[1]
     student['ot']=tmp[2]
-for n in a:
-    print(n)
-    for i in range(len(a[n])):
-        print (a[n][i],end=' ')
-    print('')
-m=int(input('Нажмите 1, чтобы вывести всех учеников'
+    student['group']=tmp[3]
+    student['marks']={}
+    for i in range(4,len(tmp),2):
+        student["marks"][tmp[i]]=int(tmp[i+1])
+    students.append(student)
+m=0
+while m!=7:
+    m=int(input('Нажмите 1, чтобы вывести всех учеников'
             ' '
             'Нажмите 2, чтобы вывести отличников'
             ' '
@@ -27,24 +29,59 @@ m=int(input('Нажмите 1, чтобы вывести всех ученико
             ' '
             'Нажмите 7, чтобы выйти'
             ' '))
-if m==1:
-    print(a)
-if m==2:
-    fl=True
-    for n in a:
-        for i in range(len(a[n])):
-            if a[n][i]!=5:
-                fl=False
-        if fl==True:
-            print(n)
+    if m==1:
+        print(students)
+    if m==2:
+        for student in students:
+            fl=True
+            for i in student['marks']:
+                if student['marks'][i]!=5:
+                    fl=False
+            if fl==True:
+                print(student)
 
-if m==3:
-    flag=False
-    for n in a:
-        for i in range(len(a[n])):
-            if a[n][i]==2:
-                flag=True
-        if flag==True:
-            print(n)
-if m==7:
-    break
+    if m==3:
+        for student in students:
+            fl=False
+            for i in student['marks']:
+                if student['marks'][i]!=2:
+                    fl=True
+            if fl==False:
+                print(student)
+    if m==4:
+        student = {}
+        student["name"]=input('Введите имя: ')
+        student['fam']=input('Введите фамилию: ')
+        student['ot']=input('Введите отчество: ')
+        students.append(student)
+        print('Ученик добавлен, проверьте список учеников')
+    if m==5:
+        num=int(input('Введите номер ученика, которого хотите удалить: '))
+        students.pop(num)
+        print('Ученик удален, проверьте список учеников')
+    if m==6:
+        numb=int(input('Введите номер ученика, чьи данные хотите изменить: '))
+        iz=input('Какие данные Вы хотите изменить? (Пишите с заглавной буквы) ')
+        if iz=='Имя':
+            students[numb]["name"]=input('Введите имя: ')
+        if iz=='Фамилия':
+            students[numb]["fam"]=input('Введите фамилию: ')
+        if iz=='Отчество':
+            students[numb]["ot"]=input('Введите отчество: ')
+        if iz=='Группа':
+            students[numb]['group']=input('Введите группу: ')
+        if iz=='Оценки':
+            izz=input('Вы хотите добавить или удалить оценку? ')
+            if izz=='Добавить':
+                pr=input('Введите название предмета: ')
+                students[numb]['marks'][pr]=int(input('Укажите оценку: '))
+            if izz=='Удалить':
+                pr=input('Введите название предмета: ')
+                del students[numb]['marks'][pr]
+
+
+
+
+
+print('Вы вышли')
+exit()
