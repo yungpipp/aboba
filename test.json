@@ -1,0 +1,403 @@
+{
+    "meta": {
+        "status": 200
+    },
+    "response": {
+        "hits": [
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/5367715",
+                    "full_title": "море (more) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/a9b5dc4d98a35f9431fbc04a192de177.300x300x1.jpg",
+                    "header_image_url": "https://images.genius.com/a9b5dc4d98a35f9431fbc04a192de177.768x768x1.jpg",
+                    "id": 5367715,
+                    "lyrics_owner_id": 9456161,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-more-lyrics",
+                    "pyongs_count": null,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/a9b5dc4d98a35f9431fbc04a192de177.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/a9b5dc4d98a35f9431fbc04a192de177.768x768x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false,
+                        "pageviews": 5493
+                    },
+                    "title": "море (more)",
+                    "title_with_featured": "море (more)",
+                    "url": "https://genius.com/Ssshhhiiittt-more-lyrics",
+                    "song_art_primary_color": "#bb9451",
+                    "song_art_secondary_color": "#d6c3a7",
+                    "song_art_text_color": "#000",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/6388189",
+                    "full_title": "море (sea) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.300x300x1.jpg",
+                    "header_image_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.1000x1000x1.jpg",
+                    "id": 6388189,
+                    "lyrics_owner_id": 9382910,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-sea-lyrics",
+                    "pyongs_count": 1,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.1000x1000x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false
+                    },
+                    "title": "море (sea)",
+                    "title_with_featured": "море (sea)",
+                    "url": "https://genius.com/Ssshhhiiittt-sea-lyrics",
+                    "song_art_primary_color": null,
+                    "song_art_secondary_color": null,
+                    "song_art_text_color": null,
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/3887058",
+                    "full_title": "На моём велосипеде (On my bike) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/5d4ed445ad112caddb2a76d87aa67df9.300x280x1.jpg",
+                    "header_image_url": "https://images.genius.com/5d4ed445ad112caddb2a76d87aa67df9.820x766x1.jpg",
+                    "id": 3887058,
+                    "lyrics_owner_id": 3977601,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-on-my-bike-lyrics",
+                    "pyongs_count": null,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/5d4ed445ad112caddb2a76d87aa67df9.300x280x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/5d4ed445ad112caddb2a76d87aa67df9.820x766x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false
+                    },
+                    "title": "На моём велосипеде (On my bike)",
+                    "title_with_featured": "На моём велосипеде (On my bike)",
+                    "url": "https://genius.com/Ssshhhiiittt-on-my-bike-lyrics",
+                    "song_art_primary_color": "#47a69a",
+                    "song_art_secondary_color": "#3c9f93",
+                    "song_art_text_color": "#fff",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 1,
+                    "api_path": "/songs/3267609",
+                    "full_title": "19 by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/42a1fc8a640241ff9764c4b4fa89b3c1.300x300x1.jpg",
+                    "header_image_url": "https://images.genius.com/42a1fc8a640241ff9764c4b4fa89b3c1.1000x1000x1.jpg",
+                    "id": 3267609,
+                    "lyrics_owner_id": 5024449,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-19-lyrics",
+                    "pyongs_count": 7,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/42a1fc8a640241ff9764c4b4fa89b3c1.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/42a1fc8a640241ff9764c4b4fa89b3c1.1000x1000x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 1,
+                        "hot": false,
+                        "pageviews": 56638
+                    },
+                    "title": "19",
+                    "title_with_featured": "19",
+                    "url": "https://genius.com/Ssshhhiiittt-19-lyrics",
+                    "song_art_primary_color": "#7f7f7f",
+                    "song_art_secondary_color": "#424242",
+                    "song_art_text_color": "#fff",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/3591084",
+                    "full_title": "100% Surf by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/517c0ff0524f27d83ddcfec9b4496407.300x300x1.jpg",
+                    "header_image_url": "https://images.genius.com/517c0ff0524f27d83ddcfec9b4496407.1000x1000x1.jpg",
+                    "id": 3591084,
+                    "lyrics_owner_id": 4907901,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-100-surf-lyrics",
+                    "pyongs_count": null,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/517c0ff0524f27d83ddcfec9b4496407.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/517c0ff0524f27d83ddcfec9b4496407.1000x1000x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false
+                    },
+                    "title": "100% Surf",
+                    "title_with_featured": "100% Surf",
+                    "url": "https://genius.com/Ssshhhiiittt-100-surf-lyrics",
+                    "song_art_primary_color": "#dbae2a",
+                    "song_art_secondary_color": "#d8b18e",
+                    "song_art_text_color": "#000",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/4619574",
+                    "full_title": "Самым Тупым (The most Stupid) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/64fd7fc78dcbd67ce29b0e22c6470628.300x300x1.jpg",
+                    "header_image_url": "https://images.genius.com/64fd7fc78dcbd67ce29b0e22c6470628.1000x1000x1.jpg",
+                    "id": 4619574,
+                    "lyrics_owner_id": 5942609,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-the-most-stupid-lyrics",
+                    "pyongs_count": 1,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/64fd7fc78dcbd67ce29b0e22c6470628.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/64fd7fc78dcbd67ce29b0e22c6470628.1000x1000x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false
+                    },
+                    "title": "Самым Тупым (The most Stupid)",
+                    "title_with_featured": "Самым Тупым (The most Stupid)",
+                    "url": "https://genius.com/Ssshhhiiittt-the-most-stupid-lyrics",
+                    "song_art_primary_color": "#681eb9",
+                    "song_art_secondary_color": "#401272",
+                    "song_art_text_color": "#fff",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/3272858",
+                    "full_title": "корабль (ship) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/a6c5ebe0b0730a4b8f8468927cba842d.300x252x1.jpg",
+                    "header_image_url": "https://images.genius.com/a6c5ebe0b0730a4b8f8468927cba842d.1000x841x1.jpg",
+                    "id": 3272858,
+                    "lyrics_owner_id": 5024449,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-ship-lyrics",
+                    "pyongs_count": 2,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/967050119df8d3b2962ceeaa0f1f0c05.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/967050119df8d3b2962ceeaa0f1f0c05.300x300x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false,
+                        "pageviews": 5571
+                    },
+                    "title": "корабль (ship)",
+                    "title_with_featured": "корабль (ship)",
+                    "url": "https://genius.com/Ssshhhiiittt-ship-lyrics",
+                    "song_art_primary_color": "#3c95c2",
+                    "song_art_secondary_color": "#1f4d64",
+                    "song_art_text_color": "#fff",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/3272847",
+                    "full_title": "ничего (nothing) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/a6c5ebe0b0730a4b8f8468927cba842d.300x252x1.jpg",
+                    "header_image_url": "https://images.genius.com/a6c5ebe0b0730a4b8f8468927cba842d.1000x841x1.jpg",
+                    "id": 3272847,
+                    "lyrics_owner_id": 5024449,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-nothing-lyrics",
+                    "pyongs_count": null,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/967050119df8d3b2962ceeaa0f1f0c05.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/967050119df8d3b2962ceeaa0f1f0c05.300x300x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false
+                    },
+                    "title": "ничего (nothing)",
+                    "title_with_featured": "ничего (nothing)",
+                    "url": "https://genius.com/Ssshhhiiittt-nothing-lyrics",
+                    "song_art_primary_color": "#3c95c2",
+                    "song_art_secondary_color": "#1f4d64",
+                    "song_art_text_color": "#fff",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/5367491",
+                    "full_title": "вонь (stench) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/4a470085da785fcc5a6457ef4c578131.300x300x1.jpg",
+                    "header_image_url": "https://images.genius.com/4a470085da785fcc5a6457ef4c578131.768x768x1.jpg",
+                    "id": 5367491,
+                    "lyrics_owner_id": 9456161,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-stench-lyrics",
+                    "pyongs_count": null,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/4a470085da785fcc5a6457ef4c578131.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/4a470085da785fcc5a6457ef4c578131.768x768x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false
+                    },
+                    "title": "вонь (stench)",
+                    "title_with_featured": "вонь (stench)",
+                    "url": "https://genius.com/Ssshhhiiittt-stench-lyrics",
+                    "song_art_primary_color": "#f65e08",
+                    "song_art_secondary_color": "#803104",
+                    "song_art_text_color": "#fff",
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            },
+            {
+                "highlights": [],
+                "index": "song",
+                "type": "song",
+                "result": {
+                    "annotation_count": 0,
+                    "api_path": "/songs/6130865",
+                    "full_title": "реквием (requiem) by ​ssshhhiiittt!",
+                    "header_image_thumbnail_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.300x300x1.jpg",
+                    "header_image_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.1000x1000x1.jpg",
+                    "id": 6130865,
+                    "lyrics_owner_id": 9382910,
+                    "lyrics_state": "complete",
+                    "path": "/Ssshhhiiittt-requiem-lyrics",
+                    "pyongs_count": 2,
+                    "song_art_image_thumbnail_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.300x300x1.jpg",
+                    "song_art_image_url": "https://images.genius.com/2af51984e02019006f38b26300bc14b7.1000x1000x1.jpg",
+                    "stats": {
+                        "unreviewed_annotations": 0,
+                        "hot": false,
+                        "pageviews": 6012
+                    },
+                    "title": "реквием (requiem)",
+                    "title_with_featured": "реквием (requiem)",
+                    "url": "https://genius.com/Ssshhhiiittt-requiem-lyrics",
+                    "song_art_primary_color": null,
+                    "song_art_secondary_color": null,
+                    "song_art_text_color": null,
+                    "primary_artist": {
+                        "api_path": "/artists/1229426",
+                        "header_image_url": "https://images.genius.com/369f544642d10223cbf295e54aaa9639.1000x663x1.jpg",
+                        "id": 1229426,
+                        "image_url": "https://images.genius.com/71d9fbe83ce6427d16f04a6c62c2587d.1000x1000x1.jpg",
+                        "is_meme_verified": false,
+                        "is_verified": false,
+                        "name": "​ssshhhiiittt!",
+                        "url": "https://genius.com/artists/Ssshhhiiittt"
+                    }
+                }
+            }
+        ]
+    }
+}
