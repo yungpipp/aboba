@@ -25,6 +25,9 @@ def handle_start(message):
 
     response = requests.request("GET", url+"/search", headers=headers, params=querystring)
     print(response.json()['response']['hits'][0]['result']['id'])
-    response = requests.get("https://genius.com/songs/"+str(response.json()['response']['hits'][0]['result']['id']), headers=headers)
-    bot.send_message(message.chat.id,response.text.split("<p>")[1].split("</p>")[0].replace("<br>",''))
+    txt = requests.get("https://genius.com/songs/"+str(response.json()['response']['hits'][0]['result']['id']), headers=headers)
+    response = requests.get("https://www.youtube.com/results?search_query="+message.text.replace('/lyrics','').replace(' ','+'))
+    video = response.text.split('"watchEndpoint":{"videoId":"')[1].split('"')[0]
+
+    bot.send_message(message.chat.id,txt.text.split("<p>")[1].split("</p>")[0].replace("<br>",'')+'\nhttps://www.youtube.com/watch?v='+video)
 bot.polling()
